@@ -1,0 +1,43 @@
+{
+  "name": "The Maktaba",
+  "short_name": "Maktaba",
+  "description": "Library of Unspoken Secrets - Hadithi, Video na Siri Nyeti",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#050a14",
+  "theme_color": "#c9a84c",
+  "orientation": "portrait-primary",
+  "lang": "sw",
+  "categories": ["entertainment", "books", "lifestyle"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Hadithi za Mapenzi",
+      "short_name": "Mapenzi",
+      "description": "Soma hadithi za mapenzi",
+      "url": "./index.html#stories",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Video",
+      "short_name": "Video", 
+      "description": "Tazama video",
+      "url": "./index.html#videos",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
